@@ -6,6 +6,7 @@
   --primary-color: #ffffff;
   --secondary-color: #e5e5e5;
   --light-color: #334ac4;
+  --grey-light-color: #8d8d8d;
 }
 
 body {
@@ -22,4 +23,9 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+.base-card {
+  background: var(--primary-color);
+  border-radius: 5px;
 }
